@@ -1,4 +1,4 @@
-# Datahon 2023- ProyectoSeguroGalicia
+# Datahon 2023- Proyecto Seguro Galicia
 ## Project
 Participants should develop a model that identifies the ideal combo of coverage and coverage and assistance for PYMES
 and entrepreneurs according to their particular characteristics based on a set of data provided by Galicia Seguros particular
@@ -22,7 +22,7 @@ For DBSCAN testing, we create a Pipeline by combining the OneHotEncoder and Stan
 This allows us to take categorical data to numeric data and maintain the same scale for the numeric data, preserving the variance unique to this data type.
 We use the ColumnTransformer class to perform these data transformations separately.
 
-![](/LSTM image.png?raw=true "")
+![](/LSTMimage.png?raw=true "")
 
 
 
