@@ -11,6 +11,8 @@ We use DBSCAN because of its ability to identify regions of high density in nume
 which is useful in our task. In addition, for the K Modes model, we take advantage of its ability to identify 
 trends and centroids using modes in categorical data observations.
 
+![](/DATOS.png?raw=true "")
+
 ## Solution proposed 
 
 Since our data have different types (numerical and categorical), we apply specific processing strategies. 
@@ -19,8 +21,13 @@ Then, we used Scikit-learn and the LabelEncoder class to convert the categorical
 For DBSCAN testing, we create a Pipeline by combining the OneHotEncoder and StandardScaler classes to ensure that all data is in the same format. 
 This allows us to take categorical data to numeric data and maintain the same scale for the numeric data, preserving the variance unique to this data type.
 We use the ColumnTransformer class to perform these data transformations separately.
+
+![](/LSTM image.png?raw=true "")
+
 Once we select a set of clusters, we can characterize specific groups of customers. In addition, we consider the use of an LSTM-type recurrent neural network (RNN) to predict customer behavior
 based on sequential data and the individual characteristics of each customer.
+
+
 
 ## Configuración del Entorno
 
