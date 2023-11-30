@@ -22,7 +22,7 @@ For DBSCAN testing, we create a Pipeline by combining the OneHotEncoder and Stan
 This allows us to take categorical data to numeric data and maintain the same scale for the numeric data, preserving the variance unique to this data type.
 We use the ColumnTransformer class to perform these data transformations separately.
 
-![](/LSTM image.png?raw=true "")
+![](/LSTM_image.png?raw=true "")
 
 Once we select a set of clusters, we can characterize specific groups of customers. In addition, we consider the use of an LSTM-type recurrent neural network (RNN) to predict customer behavior
 based on sequential data and the individual characteristics of each customer.
